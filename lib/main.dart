@@ -6,6 +6,8 @@ import 'package:photo_view/photo_view.dart';
 import 'package:youtube_player/youtube_player.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 
+import 'package:hello_world/location.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
+      // home: Location(),
       home: MyHomePage(),
     );
   }
